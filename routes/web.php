@@ -15,6 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/input', function () {
-    return view('index');
-});
+Route::get('/input', 'PhoneController@create');
+Route::post('/input', 'PhoneController@store');
