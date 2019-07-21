@@ -1,7 +1,4 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
-    "/js/intlTelInput.js": "/js/intlTelInput.js",
-    "/js/libphonenumber-max.js": "/js/libphonenumber-max.js",
-    "/css/intlTelInput.css": "/css/intlTelInput.css"
+    "/css/app.css": "/css/app.css"
 }

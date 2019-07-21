@@ -2,11 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <script src="/js/libphonenumber-max.js"></script>
+    <link rel="stylesheet" href="/css/intlTelInput.css">
+    <link rel="stylesheet" href="/css/demo.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/intlTelInput.js"></script>
+    <script src="/js/utils.js"></script>
 </head>
 <body>
+    <input type="tel" id="phone">
     <script>
-        alert(new libphonenumber.AsYouType('JP').input('0764000000'))    
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input);
     </script>
 </body>
 </html>

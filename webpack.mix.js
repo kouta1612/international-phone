@@ -14,6 +14,6 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
-mix.copy('node_modules/intl-tel-input/build/css/intlTelInput.css', 'public/css')
+mix.copy('node_modules/intl-tel-input/build/css', 'public/css')
     .copy('node_modules/intl-tel-input/build/img', 'public/images')
-    .js('node_modules/intl-tel-input/build/js/intlTelInput.js', 'public/js');
+    .copy('node_modules/intl-tel-input/build/js', 'public/js');
